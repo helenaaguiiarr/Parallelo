@@ -1,0 +1,37 @@
+/* Estilo para o elemento <ul> dentro do <nav> */
+nav ul {
+    display: flex; /* Define que os itens da lista serão exibidos em linha horizontal usando Flexbox */
+    flex-direction: row; /* Define a direção dos itens como horizontal (linha) */
+}
+
+/* Estilo para cada item da lista <li> dentro do <nav> */
+nav ul li {
+    list-style: none; /* Remove os marcadores padrão dos itens da lista */
+    height: 0; /* Define a altura dos itens como 0 para evitar espaço extra (pode ser ajustado conforme o design) */
+    padding: 0 25px 0 0; /* Adiciona padding apenas à direita, para espaçar os itens da lista horizontalmente */
+}
+
+/* Estilo para o item da lista quando o usuário passa o mouse sobre ele */
+nav ul li:hover {
+    background: #444444; /* Define a cor de fundo como cinza escuro quando o item é hover (passado o mouse sobre) */
+}
+
+/* Estilo para o elemento <nav> */
+nav {
+    height: 125px; /* Define a altura total do nav */
+    max-width: 1480px; /* Define a largura máxima do nav, garantindo que ele não se estique além deste valor */
+    min-width: 1080px; /* Define a largura mínima do nav, garantindo que ele não fique menor do que este valor */
+    background-color: black; /* Define a cor de fundo do nav como preto */
+}
+
+/* Estilo para o logo dentro do <nav> */
+nav #logo img {
+    height: 75px; /* Define a altura da imagem do logo */
+    margin: 25px; /* Adiciona uma margem de 25px ao redor da imagem do logo */
+    float: left; /* Faz com que o logo flutue à esquerda do contêiner pai */
+}
+
+/* Estilo para o menu principal dentro do <nav> */
+nav #main-menu {
+    float: right; /* Faz com que o menu flutue à direita do contêiner pai */
+}
